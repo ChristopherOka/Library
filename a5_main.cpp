@@ -1,28 +1,3 @@
-/*
-Student name: Christopher Oka, Alisa Cheuck
-Student numbers: 20892372, 20879337
-
-SYDE 121 Lab: Assignment 5
-Filename: a5_main.cpp, a5_book.cpp, a5_book.h, a5_library.cpp, a5_library.h
-
-I hereby declare that this code, submitted for credit for the course
-SYDE121, is a product of my own efforts. This coded solution has
-not been plagiarized from other sources and has not been knowingly plagiarized by others.
-
- Project: Assignment 5, Library Book Inserter and Remover
- Purpose: To create book objects and insert and remove them from a vector stored in a library object
- Due date: Friday, November 20th
-
-*/
-
-/*
-How we tested the code:
-- We included duplicate objects in our test_insertion function to see if the attributes were inputted twice. It worked, and it was only inputted once
-- We included false removal attributes in our test_removal function to see if unintended objects were removed. It worked, only intended objects were removed
-- We included attribute entries with 0, 1, 2 and 3 parameters to ensure uninputted values were set to "n/a"
-*/
-
-
 #include "a5_library.h"
 #include "a5_book.h"
 
