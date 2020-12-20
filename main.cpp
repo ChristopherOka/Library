@@ -1,5 +1,5 @@
-#include "a5_library.h"
-#include "a5_book.h"
+#include "library.h"
+#include "book.h"
 
 void test_constructors() {
 	//Construct objects
